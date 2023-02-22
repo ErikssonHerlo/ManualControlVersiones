@@ -7,3 +7,9 @@ Ing. Otto Soto
 - James Osmin Gramajo Cárcamo - 201731172
 - Juan Pablo Meza Vielman - 201930268
 - Willians Alberto Orozco López - 201830221
+
+
+
+
+### Comandos Basicos y Avanzados de Git:
+https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/Git.md#comandos-b%C3%A1sicos-y-avanzados
