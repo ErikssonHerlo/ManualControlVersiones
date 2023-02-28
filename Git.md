@@ -1,3 +1,35 @@
+# ¿Qué es GIT?
+
+Es un sistema de control de versiones de software distribuido de código abierto, diseñado para manejar distintos tipos de proyectos de manera eficiente y confiable. Fue desarrollado originalmente por Linus Torvalds en 2005 para el desarrollo del kernel de Linux, pero hoy en día se utiliza ampliamente en todo tipo de proyectos de software.
+
+Permite a los desarrolladores trabajar en equipo en el mismo proyecto de manera concurrente, manteniendo un historial completo y detallado de todos los cambios realizados en el código fuente. Esto permite a los desarrolladores revertir a versiones anteriores del proyecto si algo sale mal, rastrear bugs y colaborar en la mejora del software de manera eficiente.
+
+Funciona mediante la creación de repositorios, que son lugares donde se almacena el código fuente del proyecto y se lleva un registro de los cambios realizados. Los desarrolladores pueden clonar un repositorio para trabajar en su propia copia del proyecto, realizar cambios y luego enviar sus cambios de regreso al repositorio principal a través de un proceso conocido como **pushing** y **pulling** de los cambios realizados por otros colaboradores.
+
+## Diferencias entre Git y otros sistemas de control de versiones
+
+Mientras que la mayoría de los otros sistemas almacenan información como una lista de cambios basados ​​en archivos, Git piensa en sus datos más como una serie de instantáneas de un sistema de archivos en miniatura. Con Git, cada vez que se realiza un **commit** o se guarda el estado del proyecto, Git básicamente toma una imagen de cómo se ven todos sus archivos en ese momento y almacena una referencia a esa instantánea. Para ser eficiente, si los archivos no han cambiado, Git no vuelve a almacenar el archivo, solo un enlace al archivo idéntico anterior que ya ha almacenado. En resumen, la diferencia sería en que Git piensa en sus datos más como un flujo de instantáneas.
+
+## Estados y secciones
+
+Hay tres estados en los que pueden estar los archivos en Git
+
+- `modified`: indica que se ha cambiado el archivo, pero esté no ha sido ingresado a la base de datos todavía 
+- `staged`: indica que se ha marcado un archivo modificado en su versión actual para pasar a su próxima instantánea de confirmación.
+- `committed`: indica que los datos se almacenaron de forma segura en la base de datos local
+
+Con base a los estados anteriores se puede definir tres secciones principales de un proyecto Git:
+
+-   `working tree`: es una comprobación única de una versión del proyecto. Acá los archivos se extraen de la base de datos comprimida en el directorio Git y se colocan en el disco para su uso.
+-   `staging area`: esta área es un archivo, generalmente contenido en su directorio Git, que almacena información sobre que se incluirá en el próximo commit.
+-   `.git directory (repository)`: es donde Git almacena los metadatos y la base de datos de objetos para su proyecto. Esta es la parte más importante de Git y es lo que se copia cuando clonas un repositorio desde otra computadora.
+
+El flujo de trabajo básico de Git sería:
+
+-   Se modifican archivos en el working tree.
+-   Se organiza selectivamente solo aquellos cambios que se desean sean parte del próximo commit, que agrega solo esos cambios al staging area.
+-   Se realiza un commit, que toma los archivos tal como están en el staging area y almacena esa instantánea de forma permanente en el directorio de Git.
+
 # Comandos Básicos y Avanzados
 
 Estos son todos los comandos de **Git** disponibles en la versión más reciente. No hay más comandos que puedan ser usados en **Git** que no se encuentren en esta lista. Algunos comandos pueden tener opciones y argumentos adicionales, pero todos los comandos fundamentales están incluidos en la lista.
