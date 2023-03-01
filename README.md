@@ -9,7 +9,9 @@ Ing. Otto Soto
 - Willians Alberto Orozco López - 201830221
 
 
+# Contenido
 
+### [Sistemas de Control de versiones](https://github.com/ErikssonHerlo/ManualControlVersiones/blob.main/sistemas-control-de-versiones.md)
 
 ### Comandos Basicos y Avanzados de Git:
 https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/Git.md#comandos-b%C3%A1sicos-y-avanzados
