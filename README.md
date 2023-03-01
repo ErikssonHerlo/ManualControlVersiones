@@ -19,9 +19,13 @@ El control de versiones es muy útil para equipos de desarrollo de software, ya 
 En resumen, el control de versiones de un repositorio es una herramienta esencial para cualquier proyecto colaborativo que permita mantener un historial de los cambios realizados, colaborar de manera efectiva y mantener el control sobre lo que se ha modificado.
 ## Contenido
 
+- ### [Gestión de la Configuración en GitHub](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/gestion-configuracion-git.md)
+
 - ### [Sistemas de Control de versiones](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/sistemas-control-de-versiones.md)
+
+- ### [¿Qué es Git?](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/Git.md)
 
 - ### [Comandos Basicos y Avanzados de Git](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/Git.md#comandos-b%C3%A1sicos-y-avanzados)
 
 
-- ### [Gitflow](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/GITFLOW.md)
+- ### [GitFlow](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/GITFLOW.md)
