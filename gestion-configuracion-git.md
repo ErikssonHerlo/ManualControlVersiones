@@ -53,3 +53,37 @@ En GitHub, los participantes en el proceso de gestión de la configuración pued
 Propietario del repositorio: El propietario del repositorio es la persona o equipo que es responsable del proyecto y tiene control completo sobre el repositorio de GitHub.
 
 Desarrolladores: Los desarrolladores son las personas encargadas de escribir el código y contribuir al proyecto. Pueden hacer cambios en el repositorio y proponer solicitudes de extracción (pull requests) para que sus cambios sean revisados y aprobados antes de ser integrados al repositorio principal.
+
+## Plan de gestión de la configuración 
+Un plan de gestión de la configuración en GitHub es un documento que describe cómo se gestionará la configuración de un proyecto en GitHub. Este plan puede incluir información detallada sobre los procesos, procedimientos y herramientas que se utilizarán para gestionar la configuración del software.
+
+A continuación se presentan algunos elementos que se pueden incluir en un plan de gestión de la configuración en GitHub:
+
+Objetivos: El plan debe establecer los objetivos de la gestión de la configuración, incluyendo la garantía de la calidad, la trazabilidad, la colaboración y la continuidad del proyecto.
+
+Procesos: El plan debe describir los procesos de gestión de la configuración que se seguirán, incluyendo la identificación, control, seguimiento y reporte de cambios, la gestión de versiones, el control de calidad y la liberación de software.
+
+Procedimientos: El plan debe detallar los procedimientos específicos que se seguirán para gestionar la configuración del software, incluyendo cómo se llevará a cabo la revisión de código, la gestión de ramas y etiquetas, la integración continua y la liberación de versiones.
+
+Roles y responsabilidades: El plan debe definir los roles y responsabilidades de los diferentes participantes en la gestión de la configuración, incluyendo el propietario del repositorio, los desarrolladores, los revisores y los usuarios.
+
+Herramientas y tecnologías: El plan debe identificar las herramientas y tecnologías que se utilizarán para la gestión de la configuración en GitHub, como herramientas de integración continua, herramientas de seguimiento de errores, y herramientas de colaboración.
+
+Políticas y normas: El plan debe incluir las políticas y normas que se aplicarán en el proyecto, como las políticas de control de versiones, las normas de codificación, y las políticas de colaboración.
+
+## Herramientas de gestión de la configuración
+GitHub ofrece varias herramientas de gestión de la configuración para ayudar a los equipos de desarrollo a controlar y gestionar su código fuente. A continuación se describen algunas de las herramientas más comunes:
+
+Control de versiones: GitHub proporciona una potente herramienta de control de versiones que permite a los desarrolladores realizar un seguimiento de los cambios realizados en el código fuente. Esto incluye la capacidad de crear ramas, etiquetas y solicitudes de extracción para colaborar en el código.
+
+Ramas: Las ramas permiten a los desarrolladores trabajar en diferentes versiones de un proyecto simultáneamente. Los cambios se pueden hacer en una rama separada y luego fusionarse con la rama principal cuando se completan.
+
+Solicitudes de extracción: Las solicitudes de extracción permiten a los desarrolladores colaborar y revisar el código de otros desarrolladores antes de fusionarlo con la rama principal. Las solicitudes de extracción también incluyen herramientas para la revisión de código, comentarios y discusión.
+
+Etiquetas: Las etiquetas se utilizan para marcar versiones específicas de un proyecto. Esto es útil para identificar versiones estables y de producción.
+
+Integración continua: GitHub permite la integración continua con herramientas como Travis CI y CircleCI. Esto permite la automatización de tareas como la compilación, las pruebas y la implementación.
+
+Gestión de problemas: GitHub incluye herramientas para la gestión de problemas, lo que permite a los equipos de desarrollo rastrear y solucionar errores y problemas de manera efectiva.
+
+Wiki: GitHub también incluye una herramienta de Wiki, que permite a los equipos de desarrollo crear documentación y recursos para su proyecto.
