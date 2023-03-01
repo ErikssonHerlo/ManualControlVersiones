@@ -38,16 +38,16 @@ El flujo de trabajo de Gitflow se basa en las siguientes fases:
 ### Ejemplo
 Creación de ramas paso a paso
 
-#### **Ramas Principales**
+### **Ramas Principales**
 ![Gitflow - 1](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/images/gitflow-1.svg)
 
-#### **Ramas de Función o Features**
+### **Ramas de Función o Features**
 ![Gitflow - 1](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/images/gitflow-2.svg)
 
-#### **Ramas de Publicación o Realeses**
+### **Ramas de Publicación o Realeses**
 ![Gitflow - 1](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/images/gitflow-3.svg)
 
-#### **Ramas de Corrección o Hotfixes**
+### **Ramas de Corrección o Hotfixes**
 ![Gitflow - 4](https://github.com/ErikssonHerlo/ManualControlVersiones/blob/main/images/gitflow-4.svg)
 
 
